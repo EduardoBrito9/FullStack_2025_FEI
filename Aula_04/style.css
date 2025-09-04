@@ -1,0 +1,22 @@
+#container_divs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: t
+
+}
+
+.item{
+    background-color: darkred;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item2 {
+    background-color: darkblue;
+    flex-basis: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+

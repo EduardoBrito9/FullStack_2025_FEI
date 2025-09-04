@@ -1,0 +1,33 @@
+p{
+    color: green;
+    font-size: 20pt;
+}
+
+
+#d1{
+    background-color: aquamarine;
+}
+
+.c1{
+    background-color: lightgreen;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.size18{
+    font-size: 18pt;
+}
+
+div p{
+    font-size: 40pt;
+}
+
+div:hover{
+    background-color: brown;
+}
+
+a:visited{
+    color: darkgreen;
+}
