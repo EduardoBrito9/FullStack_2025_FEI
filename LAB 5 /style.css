@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#canvas{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#canvas2{
+    background-color: rgb(175, 244, 253);
+}
