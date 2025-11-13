@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #dedede;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #80e0ff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0 20px;
+    font-family: SansSerif;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    background: #a3c3ff;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.livros img {
+    width: 200px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.midias {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.contatos {
+    margin: auto;
+    border: 2px dashed red;
+    padding: 10px;
+}
+
+.contatos th, .contatos td {
+    padding: 8px 15px;
+}
+
+.links {
+    background: #ffff99;
+    width: 300px;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    padding-bottom: 20px;
+}
