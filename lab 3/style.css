@@ -1,86 +1,101 @@
 body {
-    font-family: Arial;
-    text-align: center;
-    background: #dedede;
-    margin: 0;
+  background-color: lightgrey;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #80e0ff;
-    padding: 20px;
+h1 {
+  color: darkgreen;
 }
 
-header h1 {
-    font-size: 40px;
-    margin: 0 20px;
-    font-family: SansSerif;
+.comeco {
+  border: solid darkblue;
+  background-color: bisque;
+  position: relative;
+  padding: 50px;
+  text-align: center;
 }
 
-.logo {
-    width: 80px;
+.comeco .java {
+  position: absolute;
+  right: 5px;
+  bottom: 45px;
 }
 
-nav {
-    background: #a3c3ff;
-    padding: 10px;
+#c {
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
 }
 
-nav a {
-    margin: 0 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: lightskyblue;
+  padding: 15px;
+}
+
+.texto {
+  text-align: center;
+  color: indigo;
+  font-size: 20pt;
 }
 
 h2 {
-    margin-top: 40px;
-    font-size: 22px;
+  text-align: center;
 }
 
-p {
-    width: 80%;
-    margin: auto;
-    font-size: 18px;
-    text-align: justify;
+.livros {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 0;
 }
 
-.livros img {
-    width: 200px;
-    margin: 15px;
-    border-radius: 5px;
-}
-
-.midias {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 20px;
+.iframe {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 .contatos {
-    margin: auto;
-    border: 2px dashed red;
-    padding: 10px;
+  width: 25%;
+  margin: 0 auto;
+  border: 5px dashed red;
 }
 
-.contatos th, .contatos td {
-    padding: 8px 15px;
+th {
+  color: red;
 }
 
 .links {
-    background: #ffff99;
-    width: 300px;
-    margin: 25px auto;
-    padding: 10px;
-    border-radius: 5px;
+  width: 30%;
+  margin: 10px auto;
+  background-color: yellow;
+  padding: 10px;
+  text-align: left;
 }
 
-footer {
-    margin-top: 30px;
-    font-family: "Comic Sans MS";
-    font-size: 15px;
-    padding-bottom: 20px;
+.rodape {
+  background-color: bisque;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 15pt;
+}
+
+.rodape .html {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.rodape .css {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }

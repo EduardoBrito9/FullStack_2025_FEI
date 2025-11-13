@@ -1,62 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>C++ e Java</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C++ e Java</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<header>
-    <img src="cpp-logo.png" class="logo">
+  <div class="comeco">
     <h1>C++ e Java</h1>
-    <img src="java-logo.png" class="logo">
-</header>
+    <img id="c" src="img&text/c++.png" width="130" height="130" alt="C++ Logo">
+    <img class="java" src="img&text/java.png" width="130" height="130" alt="Java Logo">
+  </div>
 
-<nav>
-    <a href="#">HOME</a>
-    <a href="#">LIVROS</a>
-    <a href="#">VÍDEOS</a>
-    <a href="#">CONTATOS</a>
-</nav>
+  <nav class="menu">
+    <a href="https://portal.fei.edu.br/">HOME</a>
+    <a href="https://portal.fei.edu.br/">LIVROS</a>
+    <a href="https://portal.fei.edu.br/">VIDEOS</a>
+    <a href="https://portal.fei.edu.br/">CONTATOS</a>
+  </nav>
 
-<h2>Introdução</h2>
-<p>C++ é uma linguagem de programação compilada multi-paradigma (...)</p>
-<p>Java é uma linguagem de programação orientada a objetos (...)</p>
-<p>Java foi desenvolvida por pesquisadores da SUN Microsystems (...)</p>
+  <section>
+    <h2>Introdução</h2>
+    <div class="texto">
+      <p>
+        C++ (em português: lê-se "cê mais mais", em inglês lê-se see plus plus) é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
+      </p>
 
-<h2>Livros</h2>
-<div class="livros">
-    <img src="livro1.jpg">
-    <img src="livro2.jpg">
-    <img src="livro3.jpg">
-</div>
+      <p>
+        Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.
+      </p>
 
-<h2>Aprenda a programar com Java e C++ na FEI.</h2>
-<div class="midias">
-    <iframe width="350" height="250" src="https://www.youtube.com/embed/yourvideoid" frameborder="0"></iframe>
-    <iframe width="350" height="250" src="https://www.google.com/maps/embed?pb=FAKE_LINK_AQUI"></iframe>
-</div>
+      <p>
+        Java foi desenvolvida por um grupo de pesquisadores da SUN Microsystems por volta de 1990, pouco antes da explosão da Internet. Essa linguagem possui estrutura muito semelhante à da linguagem C, da qual descende imediatamente. Java tem em comum com a linguagem C++ o fato de ser orientada a objetos e mantém com esta uma alto grau de semelhança.
+      </p>
+    </div>
+  </section>
 
-<h2>Contatos</h2>
-<table class="contatos">
-<tr><th>Nome</th><th>Email</th></tr>
-<tr><td>Prof. Dr. Fagner Pimentel</td><td>fpimentel@fei.edu.br</td></tr>
-<tr><td>Prof. Dr. Isaac Jesus da Silva</td><td>isaacjesus@fei.edu.br</td></tr>
-</table>
+  <section>
+    <h2>Livros</h2>
+    <div class="livros">
+      <img src="img&text/book1.jpg" width="150" height="250" alt="Livro 1">
+      <img src="img&text/book2.jpg" width="200" height="250" alt="Livro 2">
+      <img src="img&text/book3.jpg" width="150" height="250" alt="Livro 3">
+    </div>
+  </section>
 
-<div class="links">
+  <section>
+    <h2>Aprenda a programar com Java e C++ na FEI</h2>
+    <div class="iframe">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.6485569513393!2d-46.581972823848766!3d-23.724241178688285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1756408926797!5m2!1spt-BR!2sbr" 
+        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <iframe 
+        width="200" height="200"
+        src="https://www.youtube.com/embed/uZXNG56uWDI?si=dUfg7FFJ3MKxWpO5"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contatos</h2>
+    <table border="1" class="contatos">
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Prof. Dr. Fagner Pimentel</td>
+        <td>fpimentel@fei.edu.br</td>
+      </tr>
+      <tr>
+        <td>Prof. Dr. Isaac Jesus Da Silva</td>
+        <td>isaacjesus@fei.edu.br</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="links">
     <p>Sites para consulta:</p>
     <ul>
-        <li>HTML: https://www.w3schools.com/html/</li>
-        <li>CSS: https://www.w3schools.com/css/</li>
-        <li>JavaScript: https://www.w3schools.com/js/</li>
+      <li><b>HTML:</b> <a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a></li>
+      <li><b>CSS:</b> <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a></li>
+      <li><b>JavaScript:</b> <a href="https://www.w3schools.com/js/">https://www.w3schools.com/js/</a></li>
     </ul>
-</div>
+  </section>
 
-<footer>
+  <footer class="rodape">
     <p>Desejamos um excelente semestre a todos.</p>
-</footer>
-
+    <img class="html" src="img&text/html.png" width="100" height="100" alt="HTML Logo">
+    <img class="css" src="img&text/css.png" width="100" height="100" alt="CSS Logo">
+  </footer>
 </body>
 </html>
