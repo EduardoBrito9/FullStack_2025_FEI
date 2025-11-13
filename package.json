@@ -1,0 +1,16 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Repositório das atividades desenvolvidas na disciplica de FullStack na FEI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
