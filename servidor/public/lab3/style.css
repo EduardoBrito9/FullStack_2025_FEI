@@ -1,0 +1,101 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+.comeco {
+  border: solid darkblue;
+  background-color: bisque;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.comeco .java {
+  position: absolute;
+  right: 5px;
+  bottom: 45px;
+}
+
+#c {
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: lightskyblue;
+  padding: 15px;
+}
+
+.texto {
+  text-align: center;
+  color: indigo;
+  font-size: 20pt;
+}
+
+h2 {
+  text-align: center;
+}
+
+.livros {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 0;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.contatos {
+  width: 25%;
+  margin: 0 auto;
+  border: 5px dashed red;
+}
+
+th {
+  color: red;
+}
+
+.links {
+  width: 30%;
+  margin: 10px auto;
+  background-color: yellow;
+  padding: 10px;
+  text-align: left;
+}
+
+.rodape {
+  background-color: bisque;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 15pt;
+}
+
+.rodape .html {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.rodape .css {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
